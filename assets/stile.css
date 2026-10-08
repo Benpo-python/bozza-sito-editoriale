@@ -358,7 +358,7 @@ ol,ul{padding:0;list-style:none}
 /* prezzi: il Completo salta all'occhio, in nero */
 .pacchetti{margin-top:clamp(32px,4vw,52px);display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
 .pacchetto{display:flex;flex-direction:column;align-items:flex-start;background:#fff;color:var(--inchiostro);border:1px solid var(--inchiostro);border-radius:4px;padding:32px}
-.pacchetto h3{margin-top:10px;font-family:var(--sans);font-weight:650;font-size:20px;letter-spacing:0}
+.pacchetto h2,.pacchetto h3{margin-top:10px;font-family:var(--sans);font-weight:650;font-size:20px;letter-spacing:0}
 .pacchetto .per{margin-top:4px;color:var(--t2)}
 .pacchetto .cifra{margin-top:18px;font-family:var(--serif);font-weight:450;font-variant-numeric:lining-nums;font-size:clamp(56px,6vw,84px);line-height:1;letter-spacing:-.02em}
 .pacchetto .rg{margin-top:16px;color:var(--t2);max-width:34ch}
